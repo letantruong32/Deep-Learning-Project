@@ -1,0 +1,39 @@
+./probe.sh: line 4: cd: ./11: Not a directory
+10/
+==================================================================
+
+Traceback (most recent call last):
+  File "probe.py", line 1, in <module>
+    from sklearn.metrics import mean_absolute_error, accuracy_score
+ModuleNotFoundError: No module named 'sklearn'
+==================================================================
+
+
+
+
+
+challenges/
+==================================================================
+
+./probe.sh: line 11: env/bin/activate: No such file or directory
+python: can't open file 'test_submission.py': [Errno 2] No such file or directory
+==================================================================
+
+
+
+
+
+DeprecationWarning: 'source deactivate' is deprecated. Use 'conda deactivate'.
+test_files/
+==================================================================
+
+Traceback (most recent call last):
+  File "probe.py", line 1, in <module>
+    from sklearn.metrics import mean_absolute_error, accuracy_score
+ModuleNotFoundError: No module named 'sklearn'
+==================================================================
+
+
+
+
+

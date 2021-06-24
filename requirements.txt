@@ -1,0 +1,9 @@
+sklearn
+transformers
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.7.1+cu101
+nltk==3.5
+numpy==1.18.3
+pandas
+seaborn
+tqdm==4.46.0
